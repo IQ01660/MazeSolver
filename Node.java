@@ -14,15 +14,15 @@ public class Node {
     static final String NOT_VISIT = " ";
 
     public String toString() {
-	if(visited) {
-	    if(inSolution) return PATH;
-	    else return VISIT;
-	}
-	else return NOT_VISIT;
+        if(visited) {
+            if(inSolution) return PATH;
+            else return VISIT;
+        }
+        else return NOT_VISIT;
     }
 
     public Node(int i) {
-	index = i;
+	    index = i;
     }
 
 }
